@@ -423,7 +423,7 @@ function AboutSection() {
               <div className="relative hover:scale-105 transition-all duration-500">
                 <div className="w-80 h-80 rounded-2xl overflow-hidden border border-border/50 shadow-2xl">
                   <img
-                    src="lucas_image.jpg"
+                    src="lucas_image.jpeg"
                     alt="Lucas Wang - Senior Blockchain Developer"
                     className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
                   />
