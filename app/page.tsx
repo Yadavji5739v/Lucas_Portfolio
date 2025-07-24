@@ -353,6 +353,7 @@ function HeroSection() {
                 { number: "10+", label: "Years Experience" },
                 { number: "$20M+", label: "Funds Raised" },
                 { number: "50+", label: "Projects Delivered" },
+                { number: "5", label: "Major Platforms" },
               ].map((stat, index) => (
                 <div key={index} className="text-center hover:scale-110 transition-all duration-300 cursor-default">
                   <div className="text-3xl font-bold text-primary mb-2">{stat.number}</div>
