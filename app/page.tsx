@@ -174,11 +174,11 @@ function ThemeToggle() {
     <Button
       variant="ghost"
       size="icon"
-      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+      onClick={() => setTheme(theme === "dark" ? "dark" : "light")}
       className="rounded-full hover:bg-muted/50 hover:scale-110 transition-all duration-300"
       aria-label="Toggle theme"
     >
-      {theme === "light" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
+      {theme === "dark" ? <Moon className="h-4 w-4" /> : <Sun className="h-4 w-4" />}
     </Button>
   )
 }
@@ -350,10 +350,9 @@ function HeroSection() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
             <StaggeredAnimation staggerDelay={150} animation="scale-up" skipInitialAnimation={true}>
               {[
-                { number: "8+", label: "Years Experience" },
+                { number: "10+", label: "Years Experience" },
                 { number: "$20M+", label: "Funds Raised" },
                 { number: "50+", label: "Projects Delivered" },
-                { number: "5", label: "Major Platforms" },
               ].map((stat, index) => (
                 <div key={index} className="text-center hover:scale-110 transition-all duration-300 cursor-default">
                   <div className="text-3xl font-bold text-primary mb-2">{stat.number}</div>
