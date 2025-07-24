@@ -672,7 +672,7 @@ const projects = [
   {
     title: "Shardstarter",
     description: "Launchpad on Shardeum; developed IDO, bridge, staking.",
-    image: "/projects/shardstarter.png",
+    image: "/projects/shardstarter.webp",
     link: "https://dapp.shardstarter.io",
     github: "https://github.com/shardstarter",
     tags: ["IDO", "Bridge", "Shardeum"],
