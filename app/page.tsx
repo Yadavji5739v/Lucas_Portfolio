@@ -283,7 +283,7 @@ function HeroSection() {
   const { toast } = useToast()
 
   const handleDownloadResume = () => {
-    window.open("https://drive.google.com/file/d/1ZxSAMPLE12345/view?usp=sharing", "_blank")
+    window.open("Lucas_Resume.pdf", "_blank")
     toast({
       title: "Resume Download",
       description: "Opening resume in a new tab...",
@@ -423,7 +423,7 @@ function AboutSection() {
               <div className="relative hover:scale-105 transition-all duration-500">
                 <div className="w-80 h-80 rounded-2xl overflow-hidden border border-border/50 shadow-2xl">
                   <img
-                    src="https://via.placeholder.com/320x320/4F46E5/FFFFFF?text=LW"
+                    src="lucas_image.jpg"
                     alt="Lucas Wang - Senior Blockchain Developer"
                     className="w-full h-full object-cover hover:scale-110 transition-all duration-700"
                   />
