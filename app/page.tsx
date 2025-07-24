@@ -659,53 +659,54 @@ function ExperienceSection() {
 function ProjectsSection() {
   const { toast } = useToast()
 
-  const projects = [
-    {
-      title: "Gempad",
-      description: "Multi-chain launchpad; developed presale, voting, staking logic. Raised ~$20M in 2023.",
-      image: "C:\Users\kumar\OneDrive\Desktop\Lucas_portfolio\app\images\Screenshot (123).png",
-      link: "https://gempad.app/",
-      github: "Screenshot (123).png",
-      tags: ["DeFi", "Multi-chain", "Staking"],
-      funding: "$20M+",
-    },
-    {
-      title: "Shardstarter",
-      description: "Launchpad on Shardeum; developed IDO, bridge, staking.",
-      image: "/placeholder.svg?height=240&width=400&text=Shardstarter",
-      link: "https://dapp.shardstarter.io",
-      github: "https://github.com/shardstarter",
-      tags: ["IDO", "Bridge", "Shardeum"],
-      funding: "Series A",
-    },
-    {
-      title: "XDEX",
-      description: "First DEX on Solana-forked X1 chain; built using Anchor.",
-      image: "C:\Users\kumar\OneDrive\Desktop\Lucas_portfolio\app\images\Screenshot (124).png",
-      link: "https://testnet.xdex.xyz/",
-      github: "https://github.com/xdex",
-      tags: ["DEX", "Solana", "Rust"],
-      funding: "Bootstrap",
-    },
-    {
-      title: "Apexswap",
-      description: "DEX aggregator on Avalanche; whale trading up to $80k.",
-      image: "C:\Users\kumar\OneDrive\Desktop\Lucas_portfolio\app\images\Screenshot (126).png",
-      link: "https://apexswap1.netlify.app/swap",
-      github: "https://github.com/apexswap",
-      tags: ["Aggregator", "Avalanche", "Trading"],
-      funding: "Revenue+",
-    },
-    {
-      title: "Quantex",
-      description: "Cross-chain swap for 50+ cryptocurrencies; fast swaps in <5 mins.",
-      image: "C:\Users\kumar\OneDrive\Desktop\Lucas_portfolio\app\images\Screenshot (125).png",
-      link: "https://www.myquantex.com/",
-      github: "https://github.com/quantex",
-      tags: ["Cross-chain", "Swap", "Multi-asset"],
-      funding: "Seed",
-    },
-  ]
+const projects = [
+  {
+    title: "Gempad",
+    description: "Multi-chain launchpad; developed presale, voting, staking logic. Raised ~$20M in 2023.",
+    image: "/projects/gempad.png",
+    link: "https://gempad.app/",
+    github: "https://github.com/your-repo",
+    tags: ["DeFi", "Multi-chain", "Staking"],
+    funding: "$20M+",
+  },
+  {
+    title: "Shardstarter",
+    description: "Launchpad on Shardeum; developed IDO, bridge, staking.",
+    image: "/projects/shardstarter.png",
+    link: "https://dapp.shardstarter.io",
+    github: "https://github.com/shardstarter",
+    tags: ["IDO", "Bridge", "Shardeum"],
+    funding: "Series A",
+  },
+  {
+    title: "XDEX",
+    description: "First DEX on Solana-forked X1 chain; built using Anchor.",
+    image: "/projects/xdex.png",
+    link: "https://testnet.xdex.xyz/",
+    github: "https://github.com/xdex",
+    tags: ["DEX", "Solana", "Rust"],
+    funding: "Bootstrap",
+  },
+  {
+    title: "Apexswap",
+    description: "DEX aggregator on Avalanche; whale trading up to $80k.",
+    image: "/projects/apexswap.png",
+    link: "https://apexswap1.netlify.app/swap",
+    github: "https://github.com/apexswap",
+    tags: ["Aggregator", "Avalanche", "Trading"],
+    funding: "Revenue+",
+  },
+  {
+    title: "Quantex",
+    description: "Cross-chain swap for 50+ cryptocurrencies; fast swaps in <5 mins.",
+    image: "/projects/quantex.png",
+    link: "https://www.myquantex.com/",
+    github: "https://github.com/quantex",
+    tags: ["Cross-chain", "Swap", "Multi-asset"],
+    funding: "Seed",
+  },
+]
+
 
   const handleProjectClick = (project: any) => {
     window.open(project.link, "_blank")
