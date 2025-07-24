@@ -663,9 +663,9 @@ function ProjectsSection() {
     {
       title: "Gempad",
       description: "Multi-chain launchpad; developed presale, voting, staking logic. Raised ~$20M in 2023.",
-      image: "/placeholder.svg?height=240&width=400&text=Gempad",
+      image: "C:\Users\kumar\OneDrive\Desktop\Lucas_portfolio\app\images\Screenshot (123).png",
       link: "https://gempad.app/",
-      github: "https://github.com/gempad",
+      github: "Screenshot (123).png",
       tags: ["DeFi", "Multi-chain", "Staking"],
       funding: "$20M+",
     },
@@ -681,7 +681,7 @@ function ProjectsSection() {
     {
       title: "XDEX",
       description: "First DEX on Solana-forked X1 chain; built using Anchor.",
-      image: "/placeholder.svg?height=240&width=400&text=XDEX",
+      image: "C:\Users\kumar\OneDrive\Desktop\Lucas_portfolio\app\images\Screenshot (124).png",
       link: "https://testnet.xdex.xyz/",
       github: "https://github.com/xdex",
       tags: ["DEX", "Solana", "Rust"],
@@ -690,7 +690,7 @@ function ProjectsSection() {
     {
       title: "Apexswap",
       description: "DEX aggregator on Avalanche; whale trading up to $80k.",
-      image: "/placeholder.svg?height=240&width=400&text=Apexswap",
+      image: "C:\Users\kumar\OneDrive\Desktop\Lucas_portfolio\app\images\Screenshot (126).png",
       link: "https://apexswap1.netlify.app/swap",
       github: "https://github.com/apexswap",
       tags: ["Aggregator", "Avalanche", "Trading"],
@@ -699,7 +699,7 @@ function ProjectsSection() {
     {
       title: "Quantex",
       description: "Cross-chain swap for 50+ cryptocurrencies; fast swaps in <5 mins.",
-      image: "/placeholder.svg?height=240&width=400&text=Quantex",
+      image: "C:\Users\kumar\OneDrive\Desktop\Lucas_portfolio\app\images\Screenshot (125).png",
       link: "https://www.myquantex.com/",
       github: "https://github.com/quantex",
       tags: ["Cross-chain", "Swap", "Multi-asset"],
