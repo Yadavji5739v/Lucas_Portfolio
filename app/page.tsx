@@ -347,13 +347,12 @@ function HeroSection() {
           </AnimatedSection>
 
           {/* Stats with staggered animation - visible on load */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
             <StaggeredAnimation staggerDelay={150} animation="scale-up" skipInitialAnimation={true}>
               {[
                 { number: "10+", label: "Years Experience" },
                 { number: "$20M+", label: "Funds Raised" },
                 { number: "50+", label: "Projects Delivered" },
-                { number: "5", label: "Major Platforms" },
               ].map((stat, index) => (
                 <div key={index} className="text-center hover:scale-110 transition-all duration-300 cursor-default">
                   <div className="text-3xl font-bold text-primary mb-2">{stat.number}</div>
